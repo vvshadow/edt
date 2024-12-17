@@ -1,0 +1,115 @@
+* {
+    padding: 0 auto;
+    margin: 0 auto;
+    font-family: 'Arial';
+  }
+  
+  header {
+    background-color: #4e5aff;
+    opacity: 70%;
+  }
+  header:hover{
+      transition-duration: 0.5s;
+    opacity:100%;
+  }
+  
+  header h3 {
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+  }
+  
+  section.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+  section.container .item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 1px 1px 12px rgb(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  section.container img, p, h2 {
+    padding: 5px;
+  }
+  
+  section.container p.price {
+    font-size: 20px;
+  }
+  .button {
+    opacity: 80%;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #4e5aff;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    width: 90%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 20px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .button:hover{
+      border-radius: 12px;
+      opacity: 100%;
+      transition-duration: 1s;
+  }
+  .zoom {
+    padding: 40px;
+    transition: transform 1s; /* Animation */
+    width: 150px;
+    height:150px;
+    margin: 0 auto;
+    border-radius: 15px;
+   
+  }
+  
+  .zoom:hover {
+    transform: scale(1.2); /* 1.2 signifie 120% de zoom sachant que la base est de 100%*/
+  }
+  img{
+      border-radius: 10px;
+      transition: all 1s;
+  }
+  img:hover{
+    transition-duration: 1s;
+    border-radius: 10px;
+}
+
+
+/*  */

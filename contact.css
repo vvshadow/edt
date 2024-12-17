@@ -1,0 +1,126 @@
+body:before{
+    content: "";
+    position: fixed;
+    height: 100%; width: 100%;
+    background-size: cover;
+    z-index: -1;      
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 
+
+}
+body {
+    background-color: #e9e9e9;
+font-size: 14px;
+color:rgb(7, 7, 7); 
+}
+
+*{
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+font-family: 'Arial black', sans-serif;
+}
+
+h1{
+
+color:rgb(0, 0, 0);
+}
+
+h2{
+size: 30px;
+color:rgb(255, 255, 255)
+}
+h3{
+size: 30px;
+color:rgb(255, 255, 255)
+}
+
+p{
+color:rgb(255, 255, 255)
+} input{
+font-family: RocknRoll One;
+}
+input[type=text], select textarea{
+width: 45%; /* Full width */
+padding: 8px 45px; /* Some padding */ 
+outline-style: none;
+border: solid 1px #292727; /* */
+border-radius: 6px; /* Rounded borders */
+box-sizing: border-box; /* Make sure that padding and width stays in place */
+margin-top: 6px; /* Add a top margin */
+margin-bottom: 18px; /* Bottom margin */
+resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  
+}
+input[type=password] {
+width: 100%; /* Full width */
+padding: 8px 45px; /* Some padding */ 
+border: 1px solid #ccc; /* Gray border */
+border-radius: 12px; /* Rounded borders */
+box-sizing: border-box; /* Make sure that padding and width stays in place */
+margin-top: 6px; /* Add a top margin */
+margin-bottom: 18px; /* Bottom margin */
+resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+
+}
+
+
+input[type=submit] {
+margin-left:0px;
+background-color: #292727;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+resize: vertical;
+width: 30%; /* Full width */    
+
+}
+
+.box{
+
+box-sizing: border-box;
+width: 50%;
+border: solid #1f1f1f 3px;
+padding: 100px;
+text-align: center;
+border-radius: 2px;
+
+}
+
+
+input[type=date], select, textarea {
+width: 45%; /* Full width */
+padding: 8px 45px; /* Some padding */ 
+border: 1px solid rgb(59, 59, 59); /* Gray border */
+border-radius: 12px; /* Rounded borders */
+box-sizing: border-box; /* Make sure that padding and width stays in place */
+margin-top: 6px; /* Add a top margin */
+margin-bottom: 18px; /* Bottom margin */
+resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+.box:hover{
+border-radius: 50px;
+transition-duration: 1.5s;
+}
+
+textarea{
+width: 45%; /* Full width */
+padding: 8px 45px; /* Some padding */ 
+outline-style: none;
+border: solid 1px #535353; /* */
+border-radius: 6px; /* Rounded borders */
+box-sizing: border-box; /* Make sure that padding and width stays in place */
+margin-top: 6px; /* Add a top margin */
+margin-bottom: 18px; /* Bottom margin */
+resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=submit]:hover{
+    transition-duration:1s ;
+    background-color:rgb(56, 56, 56);
+    color: #ffffff;  
+    transition: all 1s;
+}
